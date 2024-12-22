@@ -1,0 +1,9 @@
+{
+    "plugins": ["react", "react-hooks"],
+    "rules": {
+        "no-shadow": "off",
+        "no-unused-vars": "off",
+        "react/prop-types": "off"
+
+    }
+}

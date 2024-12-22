@@ -1,32 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useData } from './hook/useData';
+import Header from './components/Header';
 
 function App() {
-  const [data, setData] = useState(null);
+  const { data, getDataPdf } = useData();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get('http://localhost:4710/api/data');
-        setData(response.data);
-        console.log(response.data);
-      } catch (error) {
-        console.error('Erro ao buscar os dados:', error);
-      }
-    };
-
-    fetchData();
-  }, []); 
+    getDataPdf();
+  }, [])
 
   return (
     <div className="App">
       <div className="bg-white p-8">
+        <Header>
         <div className="qr-code"></div>
-        {data ? (
-          <pre>{JSON.stringify(data, null, 2)}</pre> // Mostra os dados em formato JSON legível
-        ) : (
-          <p>Carregando dados...</p>
-        )}
+        </Header>
       </div>
     </div>
   )

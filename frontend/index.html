@@ -4,7 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const editableDivs = document.querySelectorAll('[contenteditable="true"]');
+        editableDivs.forEach(div => {
+          div.addEventListener('input', function() {
+            const content = this.innerHTML;
+            // Store content in a hidden input for form submission
+            const hiddenInput = this.nextElementSibling;
+            if (hiddenInput && hiddenInput.type === 'hidden') {
+              hiddenInput.value = content;
+            }
+          });
+
+          // Set initial height
+          div.style.height = 'auto';
+          div.style.height = div.scrollHeight + 'px';
+
+          // Adjust height on input
+          div.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = this.scrollHeight + 'px';
+          });
+        });
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>

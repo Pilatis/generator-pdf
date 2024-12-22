@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const QRCode = require('qrcode');
 const path = require('path');
+const customStyle = require('./customStyle.js')
 
 class PdfGenerator {
   constructor(data) {
@@ -18,6 +19,14 @@ class PdfGenerator {
 
     await page.goto('http://localhost:5173/');
 
+    await page.evaluate((style) => {
+      const head = document.head || document.getElementsByTagName('head')[0];
+      const styleTag = document.createElement('style');
+      styleTag.type = 'text/css';
+      styleTag.innerHTML = style;
+      head.appendChild(styleTag);
+    }, customStyle);
+
     await page.evaluate((qrCode) => {
         const qrContainer = document.querySelector('.qr-code');
         if (qrContainer) {
@@ -31,12 +40,11 @@ class PdfGenerator {
     const pdfBuffer = await page.pdf({
         format: 'A4',
         printBackground: true,
-        displayHeaderFooter: true,
         margin: {
-            top: '40mm',
-            bottom: '40mm',
-            left: '20mm',
-            right: '20mm'
+            top: '20px',
+            bottom: '20px',
+            left: '5px',
+            right: '5px'
         }
     });
     await browser.close();

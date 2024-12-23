@@ -1,0 +1,384 @@
+{
+  "id": 2,
+  "notes": null,
+  "customizationConfig": {
+    "id": 1,
+    "s3File": {
+      "s3Key": "network/1/logo",
+      "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/network/1/logo?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=16c70ac4f8d4ed0a84bab9a3a5cdc49d3e05c75cbb2f2f6eda8a218b46d9a5a5",
+      "fileType": "image/png"
+    },
+    "primaryColor": "#6c097d",
+    "secondColor": "#ffcf5e",
+    "primaryFontColor": "#ffffff",
+    "secondFontColor": "#ffffff"
+  },
+  "createDate": "2024-12-18 23:21:20",
+  "completeDate": "2024-12-18 23:40:16",
+  "unit": {
+    "id": 1,
+    "dueDate": null,
+    "billingDate": null,
+    "name": "VALDETE DAS NEVES",
+    "fantasyName": "VALDETE",
+    "cnpj": "04256479000182",
+    "phone": "3335328065",
+    "email": "valdete@gmail.com",
+    "cnaeCode": "4299599",
+    "stateRegistration": "VALDETE",
+    "municipalRegistration": "",
+    "responsiblePerson": "VALDETE",
+    "startDate": "2024-12-18 22:04:36"
+  },
+  "client": null,
+  "expert": {
+    "id": 3,
+    "firstName": "Marcos",
+    "lastName": "Rosa",
+    "cpf": "02454249030",
+    "signature": "https://sisvvist.s3.sa-east-1.amazonaws.com/user/3/document/SIGNATURE?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3599&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ae98f88021cb65fc0308094ae2925159fe40e911086711595b06a8b0894d4b9f"
+  },
+  "analyst": null,
+  "groups": [
+    {
+      "id": 14,
+      "name": "Dados",
+      "isRequired": false,
+      "appOrder": 1,
+      "printOrder": 0,
+      "groupType": "DATA",
+      "s3File": null,
+      "data": {
+        "licensePlate": "IIQ9651",
+        "brandModel": "CORSA GL",
+        "yearManufactureModel": "1998",
+        "color": "Verde",
+        "chassis": "9BGSE08NXWC662641",
+        "engineNumber": "JC5013189",
+        "state": "RS",
+        "city": "",
+        "fuelType": "Gasolina",
+        "power": "92",
+        "vehicleType": "Automovel",
+        "engineDisplacement": "1600",
+        "grossTotalWeight": "0"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Observação",
+      "isRequired": false,
+      "appOrder": 6,
+      "printOrder": 0,
+      "groupType": "OBSERVATION",
+      "s3File": null,
+      "data": {
+        "id": 4,
+        "km": "213972",
+        "textObservation": "O veiculo se encontra com o assoalho com a presença de ferrugem e também com a coluna A levemente amassada."
+      }
+    },
+    {
+      "id": 16,
+      "name": "Historico",
+      "isRequired": false,
+      "appOrder": 7,
+      "printOrder": 0,
+      "groupType": "HISTORY",
+      "s3File": null,
+      "data": ""
+    },
+    {
+      "id": 17,
+      "name": "Fotos 1",
+      "isRequired": false,
+      "appOrder": 2,
+      "printOrder": 0,
+      "groupType": "PARTS",
+      "s3File": null,
+      "data": [
+        {
+          "id": 140,
+          "name": "Insulfilm janelas frente",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 549,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 550,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": true
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 2,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/140/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/140/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=743b9ee7513294dbca6f96bf2046ff0fe61c966fe832f565446924572c169704",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 141,
+          "name": "Insulfilm janelas traseira",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 551,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": true
+            },
+            {
+              "id": 552,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": false,
+          "appOrder": 3,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/141/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/141/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=72d0fda68afa7b92d57bf2c833f40513d86e8a0ec9e003a682434d61f1ef83cb",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": false
+        },
+        {
+          "id": 144,
+          "name": "Item extra",
+          "observation": "descriçao do it for me ",
+          "type": "EXTRA",
+          "ratings": [],
+          "isRequiredImage": true,
+          "appOrder": 0,
+          "printOrder": 0,
+          "s3File": {
+            "s3Key": "vistoria/items/144/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/144/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=19218d845c569cc0ff3875c6634eff165355e5b0690e9898bed7105b72ee02fa",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Fotos 2",
+      "isRequired": false,
+      "appOrder": 4,
+      "printOrder": 0,
+      "groupType": "PARTS",
+      "s3File": null,
+      "data": [
+        {
+          "id": 142,
+          "name": "Insulfilm vidro traseiro",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 553,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 554,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": true
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 4,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/142/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/142/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=17beeae79681966bc550707ab64b3d61e95c7084b0cc393b2b4932163101beb2",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 149,
+          "name": "Insulfilm vidro traseiro",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 553,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 554,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": true
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 4,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/142/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/142/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=17beeae79681966bc550707ab64b3d61e95c7084b0cc393b2b4932163101beb2",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 146,
+          "name": "Insulfilm vidro traseiro",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 553,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 554,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": true
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 4,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/142/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/142/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=17beeae79681966bc550707ab64b3d61e95c7084b0cc393b2b4932163101beb2",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 147,
+          "name": "Insulfilm vidro traseiro",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 553,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 554,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": true
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 4,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/142/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/142/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=17beeae79681966bc550707ab64b3d61e95c7084b0cc393b2b4932163101beb2",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 148,
+          "name": "Insulfilm vidro traseiro",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 553,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 554,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": true
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 4,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/142/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/142/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=17beeae79681966bc550707ab64b3d61e95c7084b0cc393b2b4932163101beb2",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 143,
+          "name": "Veículo rebaixado",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 555,
+              "name": "Com dano na porta lateral",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": true
+            },
+            {
+              "id": 556,
+              "name": "Sem danos aparentes",
+              "color": "#33FF57",
+              "isVisible": false,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": false,
+          "appOrder": 5,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/143/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/143/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241219T185015Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241219%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=132b243753f0cc351d829ea660947049c66b293b70ef9ef2cba320570a445538",
+            "fileType": "image/jpeg"
+          },
+          "isRequired": true
+        }
+      ]
+    }
+  ],
+  "approvalStatus": {
+    "id": 4,
+    "name": "Aprovado",
+    "color": "#2bd247",
+    "approvalStatusPurpose": "NOT_DEFAULT"
+  }
+}

@@ -1,0 +1,365 @@
+          {
+  "id": 2,
+  "notes": null,
+  "customizationConfig": {
+    "id": 1,
+    "s3File": {
+      "s3Key": "unit/1/logo",
+      "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/unit/1/logo?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241223T002333Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241223%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cdb40becfda511f4996c191a5506b581f4b982a46aaa559f2bc0e263ad8996c1",
+      "fileType": "image/png"
+    },
+    "primaryColor": "#590000",
+    "secondColor": "#000000",
+    "primaryFontColor": "#ffffff",
+    "secondFontColor": "#CCCCCC"
+  },
+  "createDate": "2024-12-22 20:05:05",
+  "completeDate": null,
+  "unit": {
+    "id": 1,
+    "dueDate": {
+      "month": "1",
+      "day": "15"
+    },
+    "billingDate": {
+      "month": "1",
+      "day": "01"
+    },
+    "name": "POSITIVO VISTORIAS LTDA",
+    "fantasyName": "POSITIVO VISTORIAS",
+    "cnpj": "36892866000100",
+    "phone": "4930192929",
+    "email": "vistoria@gmail.com",
+    "cnaeCode": "8299799",
+    "stateRegistration": "POSITIVO VISTORIAS",
+    "municipalRegistration": "POSITIVO VISTORIAS",
+    "responsiblePerson": "EMO VISTORIA",
+    "startDate": "2024-12-22 11:18:40"
+  },
+  "client": null,
+  "expert": {
+    "id": 3,
+    "firstName": "marcos",
+    "lastName": "rosa",
+    "cpf": "02454249030",
+    "signature": null
+  },
+  "analyst": null,
+  "groups": [
+    {
+      "id": 13,
+      "name": "Dados",
+      "isRequired": true,
+      "appOrder": 1,
+      "printOrder": 1,
+      "groupType": "DATA",
+      "s3File": null,
+      "data": {
+        "licensePlate": "555123",
+        "brandModel": "Tesla model S",
+        "yearManufactureModel": "1994",
+        "color": "RED",
+        "chassis": "string",
+        "engineNumber": "string",
+        "state": "string",
+        "city": "string",
+        "fuelType": "string",
+        "power": "string",
+        "vehicleType": "string",
+        "engineDisplacement": "string",
+        "grossTotalWeight": "string"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Observações encontradas",
+      "isRequired": true,
+      "appOrder": 8,
+      "printOrder": 0,
+      "groupType": "OBSERVATION",
+      "s3File": null,
+      "data": {
+        "id": 4,
+        "km": "",
+        "textObservation": ""
+      }
+    },
+    {
+      "id": 15,
+      "name": "Vidros",
+      "isRequired": false,
+      "appOrder": 2,
+      "printOrder": 0,
+      "groupType": "PARTS",
+      "s3File": null,
+      "data": [
+        {
+          "id": 146,
+          "name": "Insulfilm pára-brisa",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 581,
+              "name": "DENTRO DOS PADRÕES DO FABRICANTE",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 582,
+              "name": "COMPATÍVEL COM O ANO DO VEÍCULO",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 583,
+              "name": "EM PÉSSIMA CONDIÇÃO",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 584,
+              "name": "REQUER AVALIAÇÃO",
+              "color": "#FF5733",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 7,
+          "printOrder": 1,
+          "s3File": null,
+          "isRequired": true
+        },
+        {
+          "id": 147,
+          "name": "Porta dianteira direita",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 585,
+              "name": "DENTRO DOS PADRÕES DO FABRICANTE",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 586,
+              "name": "COMPATÍVEL COM O ANO DO VEÍCULO",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 587,
+              "name": "EM PÉSSIMA CONDIÇÃO",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 588,
+              "name": "REQUER AVALIAÇÃO",
+              "color": "#FF5733",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 2,
+          "printOrder": 1,
+          "s3File": null,
+          "isRequired": true
+        },
+        {
+          "id": 148,
+          "name": "Porta dianteira esquerda",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 589,
+              "name": "DENTRO DOS PADRÕES DO FABRICANTE",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 590,
+              "name": "COMPATÍVEL COM O ANO DO VEÍCULO",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 591,
+              "name": "EM PÉSSIMA CONDIÇÃO",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 592,
+              "name": "REQUER AVALIAÇÃO",
+              "color": "#FF5733",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 3,
+          "printOrder": 1,
+          "s3File": null,
+          "isRequired": true
+        },
+        {
+          "id": 149,
+          "name": "Porta traseira esquerda",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 593,
+              "name": "DENTRO DOS PADRÕES DO FABRICANTE",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 594,
+              "name": "COMPATÍVEL COM O ANO DO VEÍCULO",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 595,
+              "name": "EM PÉSSIMA CONDIÇÃO",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 596,
+              "name": "REQUER AVALIAÇÃO",
+              "color": "#FF5733",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 4,
+          "printOrder": 1,
+          "s3File": null,
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Condição da etiqueta VIS",
+      "isRequired": false,
+      "appOrder": 5,
+      "printOrder": 0,
+      "groupType": "PARTS",
+      "s3File": null,
+      "data": [
+        {
+          "id": 150,
+          "name": "Assoalho direito",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 597,
+              "name": "DENTRO DOS PADRÕES DO FABRICANTE",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 598,
+              "name": "COMPATÍVEL COM O ANO DO VEÍCULO",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 599,
+              "name": "EM PÉSSIMA CONDIÇÃO",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 600,
+              "name": "REQUER AVALIAÇÃO",
+              "color": "#FF5733",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 5,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/12/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/12/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241223T002333Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241223%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=19d99402cb89c8958b0ff2d82465661134e0a37c212caa5831e41cf3ef35158c",
+            "fileType": "image/png"
+          },
+          "isRequired": true
+        },
+        {
+          "id": 151,
+          "name": "Batente da porta dianteira direita",
+          "observation": null,
+          "type": "DEFAULT",
+          "ratings": [
+            {
+              "id": 601,
+              "name": "DENTRO DOS PADRÕES DO FABRICANTE",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 602,
+              "name": "COMPATÍVEL COM O ANO DO VEÍCULO",
+              "color": "#33FF57",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 603,
+              "name": "EM PÉSSIMA CONDIÇÃO",
+              "color": "#FF3333",
+              "isVisible": true,
+              "isSelected": false
+            },
+            {
+              "id": 604,
+              "name": "REQUER AVALIAÇÃO",
+              "color": "#FF5733",
+              "isVisible": true,
+              "isSelected": false
+            }
+          ],
+          "isRequiredImage": true,
+          "appOrder": 6,
+          "printOrder": 1,
+          "s3File": {
+            "s3Key": "vistoria/items/15/item_image",
+            "url": "https://sisvvist.s3.sa-east-1.amazonaws.com/vistoria/items/15/item_image?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241223T002333Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=AKIAYKFQQUWDIMZ7DZ5N%2F20241223%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=500d507ab9106b2b04de4482d1ec0864700f04f8cc505ed0b5342cb3be8437b1",
+            "fileType": "image/png"
+          },
+          "isRequired": true
+        }
+      ]
+    }
+  ],
+  "approvalStatus": null
+}

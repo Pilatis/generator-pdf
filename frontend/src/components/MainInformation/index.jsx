@@ -7,8 +7,8 @@ const MainInformation = () => {
   const unit = data?.unit;
 
   return (
-    <div className="w-full flex items-center flex-col gap-4">
-      <div className="w-full flex items-left p-2 text-lg font-semibold text-black" style={{ background: fullColors.secondColor }}>
+    <div className="w-full flex items-center flex-col gap-4 mb-6">
+      <div className="w-full flex items-left p-2 text-lg font-semibold text-black" style={{ color: fullColors.primaryFontColor, background: fullColors.secondColor }}>
         Informações:
       </div>
       <div className="w-full flex items-center justify-between">

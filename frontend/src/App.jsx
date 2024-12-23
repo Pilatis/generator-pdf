@@ -5,12 +5,11 @@ import MainInformation from './components/MainInformation';
 import VehicleDataTable from './components/VehicleDataTable';
 import PartsGroupBox from './components/PartsGroupBox';
 import ObservationGroup from './components/ObservationGroup';
+import DocumentSignature from './components/DocumentSignature';
 
 function App() {
   const { data, getDataPdf } = useData();
   const [theGroup, setTheGroup] = useState();
-
-  const content = '';
 
   useEffect(() => {
     getDataPdf();
@@ -47,6 +46,7 @@ function App() {
             {buildGroup(group)}
           </div>
         ))}
+        <DocumentSignature />
       </div>
     </div>
   )
